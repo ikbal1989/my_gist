@@ -9,7 +9,7 @@ Get linux version
 1. cat /etc/os-release
 
 
-PHP Version upgrade My case is php 5.4 to php 5.7
+PHP Version upgrade My case is php 5.4 to php 7.0
 =================================================
 01. Remove Older PHP
 ================
