@@ -26,8 +26,8 @@ sudo yum-config-manager --enable remi-php70
 
 05. Install PHP
 sudo yum install php php-common php-opcache php-mcrypt php-cli php-gd php-curl php-mysql -y
-
-
+sudo yum install php-xml -y
+sudo yum install php-soap -y
 
 HTTP server restart
 ===================================
@@ -37,3 +37,8 @@ sudo service httpd restart
 Update Yam
 ======================
 sudo yum update
+
+
+Check Soap:
+=============================
+php -i | grep Soap
